@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-skills" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="50%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+    <pattern id="grid-skills" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#451126" stroke-width="0.6" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect width="850" height="210" rx="14" fill="url(#bg-skills)" stroke="#451126" stroke-width="1.5" />
+  <rect width="850" height="210" rx="14" fill="url(#grid-skills)" />
+
+  <!-- Corner Tech Markers -->
+  <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 30 L 836 14 L 820 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 14 180 L 14 196 L 30 196" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 180 L 836 196 L 820 196" fill="none" stroke="#701A3D" stroke-width="1.5" />
+
+  <!-- Header -->
+  <g transform="translate(35, 34)">
+    <rect x="0" y="-12" width="220" height="24" rx="6" fill="#190B12" stroke="#701A3D" stroke-width="1" />
+    <text x="12" y="4" class="mono" fill="#E5B5C7" font-size="10.5" font-weight="700" letter-spacing="1.5">
+      // 04. TECHNICAL DOMAINS
+    </text>
+  </g>
+  <text x="265" y="38" class="sans" fill="#F8F0F3" font-size="15.5" font-weight="700" letter-spacing="1">
+    Languages, Foundations &amp; Tooling
+  </text>
+
+  <!-- Row 1: Languages -->
+  <g transform="translate(35, 60)">
+    <rect x="0" y="0" width="170" height="28" rx="6" fill="#14090F" stroke="#701A3D" />
+    <text x="12" y="18" class="mono" fill="#C77B9B" font-size="10" font-weight="700">LANGUAGES &amp; CORE</text>
+    <rect x="185" y="0" width="595" height="28" rx="6" fill="#14090F" stroke="#451126" />
+    <text x="200" y="18" class="sans" fill="#F8F0F3" font-size="11.5">Python 3.x • C++ (OOP &amp; STL) • SQL • Bash / Shell</text>
+  </g>
+
+  <!-- Row 2: Data & ML -->
+  <g transform="translate(35, 96)">
+    <rect x="0" y="0" width="170" height="28" rx="6" fill="#14090F" stroke="#701A3D" />
+    <text x="12" y="18" class="mono" fill="#C77B9B" font-size="10" font-weight="700">DATA SCIENCE &amp; ML</text>
+    <rect x="185" y="0" width="595" height="28" rx="6" fill="#14090F" stroke="#451126" />
+    <text x="200" y="18" class="sans" fill="#F8F0F3" font-size="11.5">Pandas • NumPy • Scikit-Learn • Matplotlib • Seaborn • Jupyter</text>
+  </g>
+
+  <!-- Row 3: Security & Networks -->
+  <g transform="translate(35, 132)">
+    <rect x="0" y="0" width="170" height="28" rx="6" fill="#14090F" stroke="#701A3D" />
+    <text x="12" y="18" class="mono" fill="#C77B9B" font-size="10" font-weight="700">SECURITY &amp; CRYPTO</text>
+    <rect x="185" y="0" width="595" height="28" rx="6" fill="#14090F" stroke="#451126" />
+    <text x="200" y="18" class="sans" fill="#F8F0F3" font-size="11.5">Cryptography (AES / RSA) • Public Key (PKI) • TCP/IP • OSI Layers</text>
+  </g>
+
+  <!-- Row 4: Engineering & Web -->
+  <g transform="translate(35, 168)">
+    <rect x="0" y="0" width="170" height="28" rx="6" fill="#14090F" stroke="#701A3D" />
+    <text x="12" y="18" class="mono" fill="#C77B9B" font-size="10" font-weight="700">ENGINEERING &amp; WEB</text>
+    <rect x="185" y="0" width="595" height="28" rx="6" fill="#14090F" stroke="#451126" />
+    <text x="200" y="18" class="sans" fill="#F8F0F3" font-size="11.5">Git &amp; GitHub • SDLC Lifecycle • UML Diagrams • React 18 • Vite</text>
+  </g>
+</svg>

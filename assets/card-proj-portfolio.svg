@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 135" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-port" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="50%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <rect width="850" height="135" rx="12" fill="url(#bg-port)" stroke="#701A3D" stroke-width="1.5" />
+  
+  <g transform="translate(30, 32)">
+    <rect x="0" y="-10" width="120" height="22" rx="4" fill="#701A3D" />
+    <text x="60" y="5" text-anchor="middle" class="mono" fill="#F8F0F3" font-size="10" font-weight="700">FLAGSHIP REPO</text>
+  </g>
+  <text x="165" y="36" class="sans" fill="#F8F0F3" font-size="16" font-weight="800">menaallah-portfolio (Menaallah — The Series)</text>
+  <text x="820" y="36" text-anchor="end" class="mono" fill="#C77B9B" font-size="16">↗</text>
+
+  <text x="30" y="68" class="sans" fill="#E5B5C7" font-size="12">
+    Cinematic, streaming-inspired personal portfolio website built with React 18, Vite 6, TypeScript, Tailwind CSS v4,
+  </text>
+  <text x="30" y="86" class="sans" fill="#E5B5C7" font-size="12">
+    Framer Motion, and Lenis Smooth Scroll. Features 4 narrative seasons, interactive certificate viewer &amp; project showcase.
+  </text>
+
+  <g transform="translate(30, 102)">
+    <rect x="0" y="0" width="85" height="20" rx="4" fill="#14090F" stroke="#451126" />
+    <text x="42" y="14" text-anchor="middle" class="mono" fill="#F8F0F3" font-size="9">React 18</text>
+
+    <rect x="95" y="0" width="75" height="20" rx="4" fill="#14090F" stroke="#451126" />
+    <text x="132" y="14" text-anchor="middle" class="mono" fill="#F8F0F3" font-size="9">Vite 6</text>
+
+    <rect x="180" y="0" width="95" height="20" rx="4" fill="#14090F" stroke="#451126" />
+    <text x="227" y="14" text-anchor="middle" class="mono" fill="#F8F0F3" font-size="9">TypeScript</text>
+
+    <rect x="285" y="0" width="95" height="20" rx="4" fill="#14090F" stroke="#451126" />
+    <text x="332" y="14" text-anchor="middle" class="mono" fill="#F8F0F3" font-size="9">Tailwind v4</text>
+
+    <rect x="390" y="0" width="115" height="20" rx="4" fill="#14090F" stroke="#451126" />
+    <text x="447" y="14" text-anchor="middle" class="mono" fill="#F8F0F3" font-size="9">Framer Motion</text>
+  </g>
+</svg>

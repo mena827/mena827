@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-about" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="50%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+    <pattern id="grid-about" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#451126" stroke-width="0.6" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .serif-it { font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+  </style>
+
+  <!-- Container -->
+  <rect width="850" height="230" rx="14" fill="url(#bg-about)" stroke="#451126" stroke-width="1.5" />
+  <rect width="850" height="230" rx="14" fill="url(#grid-about)" />
+
+  <!-- Corner Tech Markers -->
+  <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 30 L 836 14 L 820 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 14 200 L 14 216 L 30 216" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 200 L 836 216 L 820 216" fill="none" stroke="#701A3D" stroke-width="1.5" />
+
+  <!-- Section Header Pill -->
+  <g transform="translate(35, 36)">
+    <rect x="0" y="-12" width="220" height="24" rx="6" fill="#190B12" stroke="#701A3D" stroke-width="1" />
+    <text x="12" y="4" class="mono" fill="#E5B5C7" font-size="10.5" font-weight="700" letter-spacing="1.5">
+      // 01. ABOUT &amp; MISSION
+    </text>
+  </g>
+  <text x="265" y="40" class="sans" fill="#F8F0F3" font-size="16" font-weight="700" letter-spacing="1">
+    Academic Vision &amp; Personal Calling
+  </text>
+
+  <!-- Quote -->
+  <text x="35" y="78" class="serif-it" fill="#F8F0F3" font-size="13.5">
+    “I chose Computer and Data Science because of my passion for technology since childhood. Inspired by my father
+  </text>
+  <text x="35" y="98" class="serif-it" fill="#F8F0F3" font-size="13.5">
+    working in IT, experimenting on computers became my lifelong calling. This is where I truly belong.”
+  </text>
+
+  <!-- 4 Target Rectangles / Pills -->
+  <g transform="translate(35, 125)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">ACADEMIC TARGET</text>
+    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">09.03.03 «Прикладная информатика» (Applied Informatics)</text>
+
+    <!-- Pill 2 -->
+    <rect x="405" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">SCHOLARSHIP PROGRAM</text>
+    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Russian Government Quota (госстипендия) 2027/2028</text>
+  </g>
+
+  <g transform="translate(35, 175)">
+    <!-- Pill 3 -->
+    <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">CORE RESEARCH FOCUS</text>
+    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Machine Learning • Data Analytics • C++ Systems • Cybersecurity</text>
+
+    <!-- Pill 4 -->
+    <rect x="405" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">LOCATION &amp; DESTINATION</text>
+    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Cairo, Egypt 🇪🇬  ➔  Russian Federation 🇷🇺</text>
+  </g>
+</svg>
