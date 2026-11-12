@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 280" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad-mena" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="50%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+
+    <!-- Accent Wine Glow -->
+    <radialGradient id="glow-wine-mena" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.45">
+        <animate attributeName="stop-opacity" values="0.35;0.55;0.35" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Moving Line Shimmer -->
+    <linearGradient id="line-shimmer-mena" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.1" />
+      <stop offset="30%" stop-color="#C77B9B" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#F8F0F3" stop-opacity="1" />
+      <stop offset="70%" stop-color="#C77B9B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#701A3D" stop-opacity="0.1" />
+      <animate attributeName="x1" values="-100%;100%" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%" dur="4s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Text Shimmer -->
+    <linearGradient id="text-shimmer-mena" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8F0F3" />
+      <stop offset="45%" stop-color="#F8F0F3" />
+      <stop offset="50%" stop-color="#E5B5C7" />
+      <stop offset="55%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#E5B5C7" />
+      <stop offset="100%" stop-color="#F8F0F3" />
+      <animate attributeName="x1" values="-100%;100%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Fine Grid Pattern -->
+    <pattern id="grid-pattern-mena" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#451126" stroke-width="0.75" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <style>
+    .font-mono-tech { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; }
+    .font-display-tech { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.4; }
+      50% { transform: scale(1.08) rotate(180deg); opacity: 0.7; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="850" height="280" rx="16" fill="url(#bg-grad-mena)" stroke="#451126" stroke-width="1.5" stroke-opacity="0.8" />
+  
+  <!-- Subtle Grid Overlay -->
+  <rect width="850" height="280" rx="16" fill="url(#grid-pattern-mena)" />
+
+  <!-- Radial Glow Behind Text -->
+  <circle cx="425" cy="120" r="280" fill="url(#glow-wine-mena)" />
+
+  <!-- Technical Orbital Geometry / Constellation Rings -->
+  <g transform="translate(730, 90)" opacity="0.35">
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#C77B9B" stroke-width="1" stroke-dasharray="4 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#701A3D" stroke-width="1.2" stroke-dasharray="8 4">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="25s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="45" cy="0" r="4" fill="#E5B5C7">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#F8F0F3" />
+  </g>
+
+  <g transform="translate(100, 200)" opacity="0.25">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#C77B9B" stroke-width="0.8" stroke-dasharray="3 5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#451126" stroke-width="1" />
+  </g>
+
+  <!-- Top Kicker / Category -->
+  <g transform="translate(425, 48)">
+    <rect x="-185" y="-14" width="370" height="26" rx="13" fill="#190B12" stroke="#701A3D" stroke-width="1" />
+    <circle cx="-165" cy="-1" r="3.5" fill="#34D399">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="-150" y="3" class="font-mono-tech" fill="#E5B5C7" font-size="10.5" font-weight="600" letter-spacing="2">
+      RUSSIAN GOV SCHOLARSHIP 2027/2028
+    </text>
+  </g>
+
+  <!-- Main Hero Name -->
+  <text x="425" y="118" text-anchor="middle" class="font-display-tech" fill="url(#text-shimmer-mena)" font-size="38" font-weight="800" letter-spacing="3.5">
+    MENAALLAH TAMER
+  </text>
+
+  <!-- Glowing Underline with Shimmer -->
+  <line x1="260" y1="135" x2="590" y2="135" stroke="#451126" stroke-width="2" />
+  <line x1="260" y1="135" x2="590" y2="135" stroke="url(#line-shimmer-mena)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Subtitle / Role -->
+  <text x="425" y="168" text-anchor="middle" class="font-mono-tech" fill="#E5B5C7" font-size="13" font-weight="500" letter-spacing="2.2">
+    COMPUTER &amp; DATA SCIENCE SCHOLAR
+  </text>
+  <text x="425" y="188" text-anchor="middle" class="font-display-tech" fill="#C77B9B" font-size="12" font-weight="400" letter-spacing="1">
+    Specialization: 09.03.03 «Прикладная информатика» (Applied Informatics)
+  </text>
+
+  <!-- Bottom Pills: Tech & Focus -->
+  <g transform="translate(425, 232)">
+    <g transform="translate(-320, 0)">
+      <rect x="0" y="-12" width="115" height="24" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <text x="57" y="4" text-anchor="middle" class="font-mono-tech" fill="#F8F0F3" font-size="10.5" font-weight="500">Python &amp; ML</text>
+    </g>
+    <g transform="translate(-195, 0)">
+      <rect x="0" y="-12" width="125" height="24" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <text x="62" y="4" text-anchor="middle" class="font-mono-tech" fill="#F8F0F3" font-size="10.5" font-weight="500">Cybersecurity</text>
+    </g>
+    <g transform="translate(-60, 0)">
+      <rect x="0" y="-12" width="120" height="24" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <text x="60" y="4" text-anchor="middle" class="font-mono-tech" fill="#F8F0F3" font-size="10.5" font-weight="500">C++ Systems</text>
+    </g>
+    <g transform="translate(70, 0)">
+      <rect x="0" y="-12" width="125" height="24" rx="6" fill="#190B12" stroke="#451126" stroke-width="1" />
+      <text x="62" y="4" text-anchor="middle" class="font-mono-tech" fill="#F8F0F3" font-size="10.5" font-weight="500">Data Analytics</text>
+    </g>
+    <g transform="translate(205, 0)">
+      <rect x="0" y="-12" width="115" height="24" rx="6" fill="#190B12" stroke="#701A3D" stroke-width="1" />
+      <text x="57" y="4" text-anchor="middle" class="font-mono-tech" fill="#E5B5C7" font-size="10.5" font-weight="600">Saylor • 7 Certs</text>
+    </g>
+  </g>
+
+  <!-- Corner Tech Accent Decors -->
+  <path d="M 16 35 L 16 16 L 35 16" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 834 35 L 834 16 L 815 16" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 16 245 L 16 264 L 35 264" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 834 245 L 834 264 L 815 264" fill="none" stroke="#701A3D" stroke-width="1.5" />
+</svg>
