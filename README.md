@@ -20,17 +20,22 @@
 
   <br />
 
-  <!-- 02. About & Academic Mission (Rectangle 2) -->
+  <!-- 01. About & Academic Mission (Rectangle 2) -->
   <img src="assets/card-about.svg" alt="About Me &amp; Academic Mission" width="100%" />
 
   <br /><br />
 
-  <!-- 03. 10 Verified Credentials & Honors (Rectangle 3) -->
+  <!-- 02. 10 Verified Credentials & Honors (Rectangle 3) -->
   <img src="assets/card-credentials.svg" alt="10 Verified Credentials &amp; Honors" width="100%" />
 
   <br /><br />
 
-  <!-- 04. Featured Code Projects (Rectangles Grid) -->
+  <!-- 03. Featured Code Repositories (Header Rectangle) -->
+  <img src="assets/card-projects-header.svg" alt="03. Featured Code Repositories" width="100%" />
+
+  <br /><br />
+
+  <!-- Featured Projects Grid -->
   <table width="100%" border="0" cellspacing="10" cellpadding="0">
     <tr>
       <td width="50%" align="center" valign="middle">
@@ -67,17 +72,17 @@
 
   <br />
 
-  <!-- 05. Technical Domains & Repertoire (Rectangle 5) -->
+  <!-- 04. Technical Domains & Repertoire (Rectangle 5) -->
   <img src="assets/card-skills.svg" alt="Technical Domains &amp; Repertoire" width="100%" />
 
   <br /><br />
 
-  <!-- 06. GitHub Activity & Analytics (Card Rectangle) -->
+  <!-- 05. GitHub Activity & Analytics (Card Rectangle) -->
   <img src="assets/card-stats.svg" alt="Menaallah's Codebase &amp; Academic Metrics" width="100%" />
 
   <br /><br />
 
-  <!-- 07. Animated Footer Banner (Rectangle 7) -->
+  <!-- 06. Animated Footer Banner (Rectangle 7) -->
   <img src="assets/menaallah-footer.svg" alt="Menaallah Tamer — Animated Footer Banner" width="100%" />
 
   <br /><br />

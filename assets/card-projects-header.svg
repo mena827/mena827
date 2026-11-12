@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 68" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-proj-hdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="50%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+    <pattern id="grid-proj-hdr" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#451126" stroke-width="0.6" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+  <rect width="850" height="68" rx="14" fill="url(#bg-proj-hdr)" stroke="#451126" stroke-width="1.5" />
+  <rect width="850" height="68" rx="14" fill="url(#grid-proj-hdr)" />
+  
+  <path d="M 14 26 L 14 14 L 26 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 26 L 836 14 L 824 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 14 42 L 14 54 L 26 54" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 42 L 836 54 L 824 54" fill="none" stroke="#701A3D" stroke-width="1.5" />
+
+  <g transform="translate(35, 34)">
+    <rect x="0" y="-12" width="265" height="24" rx="6" fill="#190B12" stroke="#701A3D" stroke-width="1" />
+    <text x="12" y="4" class="mono" fill="#E5B5C7" font-size="10.5" font-weight="700" letter-spacing="1.5">// 03. FEATURED CODE REPOSITORIES</text>
+  </g>
+  <text x="325" y="38" class="sans" fill="#F8F0F3" font-size="15" font-weight="700" letter-spacing="0.8">Algorithms, Security &amp; Data Science Software</text>
+</svg>
