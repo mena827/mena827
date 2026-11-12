@@ -45,28 +45,36 @@
     working in IT, experimenting on computers became my lifelong calling. This is where I truly belong.”
   </text>
 
-  <!-- 4 Target Rectangles / Pills -->
+  <!-- 4 Target Rectangles / Pills with Proper 2-Column Separation -->
   <g transform="translate(35, 125)">
-    <!-- Pill 1 -->
-    <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
-    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">ACADEMIC TARGET</text>
-    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">09.03.03 «Прикладная информатика» (Applied Informatics)</text>
+    <!-- Pill 1 (Left Column) -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+      <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">ACADEMIC TARGET</text>
+      <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">09.03.03 «Прикладная информатика» (Applied Informatics)</text>
+    </g>
 
-    <!-- Pill 2 -->
-    <rect x="405" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
-    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">SCHOLARSHIP PROGRAM</text>
-    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Russian Government Quota (госстипендия) 2027/2028</text>
+    <!-- Pill 2 (Right Column) -->
+    <g transform="translate(405, 0)">
+      <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+      <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">SCHOLARSHIP PROGRAM</text>
+      <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Russian Government Quota (госстипендия) 2027/2028</text>
+    </g>
   </g>
 
   <g transform="translate(35, 175)">
-    <!-- Pill 3 -->
-    <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
-    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">CORE RESEARCH FOCUS</text>
-    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Machine Learning • Data Analytics • C++ Systems • Cybersecurity</text>
+    <!-- Pill 3 (Left Column) -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+      <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">CORE RESEARCH FOCUS</text>
+      <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Machine Learning • Data Analytics • C++ Systems • Cybersecurity</text>
+    </g>
 
-    <!-- Pill 4 -->
-    <rect x="405" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
-    <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">LOCATION &amp; DESTINATION</text>
-    <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Cairo, Egypt 🇪🇬  ➔  Russian Federation 🇷🇺</text>
+    <!-- Pill 4 (Right Column) -->
+    <g transform="translate(405, 0)">
+      <rect x="0" y="0" width="375" height="42" rx="8" fill="#14090F" stroke="#451126" stroke-width="1" />
+      <text x="16" y="17" class="mono" fill="#C77B9B" font-size="9.5" font-weight="600" letter-spacing="1">LOCATION &amp; DESTINATION</text>
+      <text x="16" y="32" class="sans" fill="#F8F0F3" font-size="11.5" font-weight="600">Cairo, Egypt 🇪🇬  ➔  Russian Federation 🇷🇺</text>
+    </g>
   </g>
 </svg>

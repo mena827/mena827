@@ -7,7 +7,7 @@
 
   <!-- Action Badges (Rectangles Row) -->
   <p align="center">
-    <a href="https://github.com/mena827/menaallah-portfolio">
+    <a href="https://menaallah-portfolio.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/Cinematic_Portfolio-Menaallah:_The_Series-701A3D?style=for-the-badge&logo=netflix&logoColor=F8F0F3" alt="Portfolio" />
     </a>
     &nbsp;
@@ -58,7 +58,7 @@
     </tr>
     <tr>
       <td colspan="2" align="center" valign="middle">
-        <a href="https://github.com/mena827/menaallah-portfolio">
+        <a href="https://menaallah-portfolio.vercel.app/" target="_blank">
           <img src="assets/card-proj-portfolio.svg" alt="menaallah-portfolio" width="100%" />
         </a>
       </td>
@@ -72,19 +72,10 @@
 
   <br /><br />
 
-  <!-- 06. GitHub Activity & Analytics (Rectangles Row) -->
-  <table width="100%" border="0" cellspacing="10" cellpadding="0">
-    <tr>
-      <td width="52%" align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=mena827&show_icons=true&count_private=true&hide_border=false&bg_color=10070C&text_color=F8F0F3&title_color=C77B9B&icon_color=E5B5C7&border_color=451126" alt="Menaallah's GitHub Stats" width="100%" />
-      </td>
-      <td width="48%" align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mena827&layout=compact&hide_border=false&bg_color=10070C&text_color=F8F0F3&title_color=C77B9B&border_color=451126" alt="Menaallah's Top Languages" width="100%" />
-      </td>
-    </tr>
-  </table>
+  <!-- 06. GitHub Activity & Analytics (Card Rectangle) -->
+  <img src="assets/card-stats.svg" alt="Menaallah's Codebase &amp; Academic Metrics" width="100%" />
 
-  <br />
+  <br /><br />
 
   <!-- 07. Animated Footer Banner (Rectangle 7) -->
   <img src="assets/menaallah-footer.svg" alt="Menaallah Tamer — Animated Footer Banner" width="100%" />
@@ -101,7 +92,7 @@
       <img src="https://img.shields.io/badge/GitHub-@mena827-701A3D?style=flat-square&logo=github&logoColor=F8F0F3" alt="GitHub" />
     </a>
     &nbsp;
-    <a href="https://github.com/mena827/menaallah-portfolio">
+    <a href="https://menaallah-portfolio.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/The_Series-Online_Portfolio-190B12?style=flat-square&logo=visualstudiocode&logoColor=C77B9B" alt="Portfolio" />
     </a>
   </p>

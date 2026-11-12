@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-stats" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="50%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <rect width="850" height="140" rx="14" fill="url(#bg-stats)" stroke="#451126" stroke-width="1.5" />
+  
+  <!-- Corner Tech Markers -->
+  <path d="M 14 26 L 14 14 L 26 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 26 L 836 14 L 824 14" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 14 114 L 14 126 L 26 126" fill="none" stroke="#701A3D" stroke-width="1.5" />
+  <path d="M 836 114 L 836 126 L 824 126" fill="none" stroke="#701A3D" stroke-width="1.5" />
+
+  <!-- Column 1: Core Metrics (Left) -->
+  <g transform="translate(35, 25)">
+    <text x="0" y="14" class="mono" fill="#C77B9B" font-size="11" font-weight="700" letter-spacing="1.5">// 05. CODEBASE &amp; ACADEMIC METRICS</text>
+
+    <!-- 3 Mini stat badges -->
+    <g transform="translate(0, 32)">
+      <!-- Badge 1 -->
+      <rect x="0" y="0" width="115" height="52" rx="6" fill="#14090F" stroke="#451126" />
+      <text x="57" y="24" text-anchor="middle" class="sans" fill="#F8F0F3" font-size="18" font-weight="800">5</text>
+      <text x="57" y="42" text-anchor="middle" class="mono" fill="#C77B9B" font-size="9">Public Repos</text>
+
+      <!-- Badge 2 -->
+      <rect x="125" y="0" width="125" height="52" rx="6" fill="#14090F" stroke="#451126" />
+      <text x="187" y="24" text-anchor="middle" class="sans" fill="#34D399" font-size="18" font-weight="800">10</text>
+      <text x="187" y="42" text-anchor="middle" class="mono" fill="#C77B9B" font-size="9">Verified Certs</text>
+
+      <!-- Badge 3 -->
+      <rect x="260" y="0" width="115" height="52" rx="6" fill="#14090F" stroke="#451126" />
+      <text x="317" y="24" text-anchor="middle" class="sans" fill="#F8F0F3" font-size="18" font-weight="800">560h+</text>
+      <text x="317" y="42" text-anchor="middle" class="mono" fill="#C77B9B" font-size="9">CS Coursework</text>
+    </g>
+  </g>
+
+  <!-- Vertical Divider -->
+  <line x1="425" y1="20" x2="425" y2="120" stroke="#451126" stroke-width="1" />
+
+  <!-- Column 2: Language & Focus Breakdown (Right) -->
+  <g transform="translate(455, 25)">
+    <text x="0" y="14" class="mono" fill="#C77B9B" font-size="11" font-weight="700" letter-spacing="1.5">// PRIMARY TECH DISTRIBUTION</text>
+
+    <!-- Progress Bar Container -->
+    <g transform="translate(0, 32)">
+      <!-- Outer Bar -->
+      <rect x="0" y="0" width="360" height="14" rx="4" fill="#14090F" stroke="#451126" />
+      
+      <!-- Python segment 52% -->
+      <rect x="1" y="1" width="187" height="12" rx="3" fill="#701A3D" />
+      <!-- C++ segment 24% -->
+      <rect x="188" y="1" width="86" height="12" fill="#9F1239" />
+      <!-- TypeScript/React segment 16% -->
+      <rect x="274" y="1" width="57" height="12" fill="#BE123C" />
+      <!-- Jupyter/Other 8% -->
+      <rect x="331" y="1" width="28" height="12" rx="3" fill="#E11D48" />
+
+      <!-- Legend -->
+      <g transform="translate(0, 34)">
+        <circle cx="5" cy="5" r="4" fill="#701A3D" />
+        <text x="14" y="9" class="mono" fill="#F8F0F3" font-size="9.5">Python 52%</text>
+
+        <circle cx="105" cy="5" r="4" fill="#9F1239" />
+        <text x="114" y="9" class="mono" fill="#F8F0F3" font-size="9.5">C++ 24%</text>
+
+        <circle cx="190" cy="5" r="4" fill="#BE123C" />
+        <text x="199" y="9" class="mono" fill="#F8F0F3" font-size="9.5">TypeScript 16%</text>
+
+        <circle cx="300" cy="5" r="4" fill="#E11D48" />
+        <text x="309" y="9" class="mono" fill="#F8F0F3" font-size="9.5">EDA/Other 8%</text>
+      </g>
+    </g>
+  </g>
+</svg>
